@@ -11,6 +11,8 @@ describe('demo.js', function () {
 
             expect(demo.getMessage())
             .to.be.equal('Hello GitHub Actions!');
+            expect(demo.getMessage())
+            .to.be.equal('This repository is sandbox for GitHub Actions.');
         })
     });
 });
